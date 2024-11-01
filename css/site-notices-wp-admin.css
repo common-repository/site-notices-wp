@@ -1,0 +1,107 @@
+.sn-wp-toast-sample {
+    width: 100%;
+    position: inherit;
+    z-index: auto;
+}
+
+ul.toast-samples {
+
+}
+
+ul.toast-samples > li {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    text-align: center;
+    width:80px;
+}
+.sn-wp-toast-sample > .toast-success,
+.sn-wp-toast-sample > .toast-info,
+.sn-wp-toast-sample > .toast-warning,
+.sn-wp-toast-sample > .toast-error {
+    background-image: none !important;
+    width: 50px;
+}
+.sn-wp-toast-sample > div {
+    width: auto !important;
+    padding: 5px;
+}
+
+.sn-wp-toast-sample > div:hover, .sn-wp-toast-sample.active > div  {
+    box-shadow: 0 0 2px #000;
+    border: 2px solid #FFF;
+    opacity: 1;
+}
+.toast-container {
+    /*height: 100%;*/
+}
+.toast-container > div {
+    /*height: 100%;*/
+}
+
+.wp-picker-container .wp-color-result-text {
+    color: #FFFFFF;
+}
+
+.wp-picker-container .button.wp-color-result {
+    padding: 5px;
+    min-height:auto;
+
+    line-height: normal;
+}
+
+.wp-picker-container .wp-picker-input-wrap {
+    /*display: none !important;*/
+}
+
+.wp-picker-container .wp-picker-holder {
+    margin-top: 10px;
+    position: absolute;
+}
+
+.wp-picker-container:hover button, .wp-picker-container.wp-picker-active button, .wp-color-result {
+    /*box-shadow: 0 0 2px #000;*/
+    border: 0px solid #FFF !important;
+    border-radius: 0 !important;
+    opacity: 1;
+}
+
+.wp-picker-container {
+    margin-left: 15px;
+    margin-top: 2px;
+    white-space: nowrap;
+    width: auto;
+}
+
+.sn_wp_field_notice_type #_sn_wp_notice_type > ul {
+    margin: 0;
+}
+
+.wp-picker-container .wp-picker-input-wrap {
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin-top: -3px;
+    margin-left: 10px;
+}
+.wp-picker-container .wp-picker-input-wrap.hidden {
+    display: none !important;
+}
+.wp-picker-container .wp-picker-input-wrap input[type="text"] {
+    width: 100px;
+    margin-right: 5px;
+}
+.wp-picker-container .wp-picker-input-wrap input[type="button"] {
+    max-height: 30px !important;
+    margin-top: 2px;
+}
+.wp-picker-default {
+    display: none !important;
+}
+
+.sn_wp_field_duration > #_sn_wp_duration {
+    width: 360px;
+}
+.toast-close-button {
+    background-color: transparent !important;
+}

@@ -1,0 +1,17 @@
+== Changelog ==
+
+= 1.1.0 =
+* New - Added duration to hide notification for a certain period of time
+* New - Added custom color picker
+
+= 1.0.3 =
+* Fix - Compatibility with WordPress 5.8.1
+
+= 1.0.2 =
+* Fix - Compatibility with WordPress 5.8
+
+= 1.0.1 =
+* New - Improve color theme selection
+
+= 1.0.0 =
+* Initial release
